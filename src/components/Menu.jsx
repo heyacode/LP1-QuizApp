@@ -2,7 +2,7 @@ import { StyledMenu } from '../styles/Menu.styled';
 import { getQuestions } from '../redux/Store';
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import logo from '../styles/images/logo.PNG';
+import logo from '../styles/images/time.gif';
 
 const Menu = () => {
   const dispatch = useDispatch();
@@ -33,7 +33,7 @@ const Menu = () => {
       <form onSubmit={onSubmitHandler}>
         <img src={logo} alt="logo" />
         <div className='nbq'>
-          <label>Nombre Des Questions:  </label>
+          <label>Number Of Questions :  </label>
           <select onChange={onChangeHandlerNbQuestions}>
             <option value='5'>5</option>
             <option value='10'>10</option>
@@ -41,23 +41,23 @@ const Menu = () => {
         </div>
 
         <div>
-          <label>Catégories : </label>
+          <label>Categorie : </label>
           <select onChange={onChangeHandlerCategorie}>
             <option value='18'>IT</option>
-            <option value='15'>Jeux vidéo</option>
+            <option value='15'>Video Game</option>
           </select>
         </div>
 
         <div>
-          <label>Difficulté : </label>
+          <label>Difficulty : </label>
           <select onChange={onChangeHandlerDifficulte}>
-            <option value='easy'>Facile</option>
-            <option value='medium'>Moyen</option>
-            <option value='hard'>Difficile</option>
+            <option value='easy'>Easy</option>
+            <option value='medium'>Medium</option>
+            <option value='hard'>Difficult</option>
           </select>
         </div>
 
-        <button type='submit'>Commencer Le Quiz</button>
+        <button type='submit'>Start Quiz</button>
       </form>
     </StyledMenu>
   );

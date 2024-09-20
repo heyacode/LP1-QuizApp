@@ -30,7 +30,7 @@ const Question = () => {
   return (
     <StyledQuestion>
       <p>
-        Les réponses correctes : {correcte}
+        Correct Answers : {correcte}
       </p>
       <h1 dangerouslySetInnerHTML={{ __html: question.question }}></h1>
       {liste.map((question, index) => (
@@ -43,7 +43,7 @@ const Question = () => {
       ))}
 
       <button className='suivant' onClick={onHandlerQuestuinSuivante}>
-        Valider
+        Next
       </button>
     </StyledQuestion>
   );

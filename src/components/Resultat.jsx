@@ -16,17 +16,17 @@ const Resultat = () => {
       <div>
         <h2>Erreur</h2>
         <p>{erreur.msg}</p>
-        <button onClick={onClickHandler}>Réessayer</button>
+        <button onClick={onClickHandler}>Try Again</button>
       </div>
     );
   } else if (reponsecorrecte >= 3) {
     MessageResultat = (
       <div>
-        <h2>Félicitations</h2>
+        <h2>Congratulations</h2>
         <p>
-          Vous avez répondu à {reponsecorrecte} des questions correctement.
+          You have answered {reponsecorrecte} questions correctly.
         </p>
-        <button onClick={onClickHandler}>Recommencer</button>
+        <button onClick={onClickHandler}>Play Again</button>
       </div>
     );
   } else {

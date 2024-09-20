@@ -25,7 +25,7 @@ body {
   font-size: 13px;
   line-height: 1.4;
   display: flex;
-  background-color: #e6e3f1;
+  background-color: #f7f2eb;
   overflow: hidden;
   
  

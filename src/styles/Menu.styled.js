@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledMenu = styled.section`
   font-size: 18px;
   border-radius: 10px;
-  background-color: #f3beaf;
+  background-color: #bad6eb;
   padding: 48px;
   width: 85vw;
   @media (min-width: 768px) {
@@ -14,9 +14,9 @@ export const StyledMenu = styled.section`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: left;
     margin: 0;
-    padding: 0;
+    padding: 3px;
 
     h1 {
       font-size: 29px;
@@ -27,23 +27,24 @@ export const StyledMenu = styled.section`
     }
     img {
       width : 200px;
-      height:150px;
+      height:200px;
       margin:auto;
       margin-bottom:10px;
       margin-top:0px;
     }
     div {
-      background-color:#f39594;
-      border-radius:20px;
+      background-color:#081f5c;
+      border-radius:8px;
       height:70px;
       margin-bottom: 32px;
       width: 100%;
       display: flex;
       flex-direction: column;
+      padding: 5px;
 
       label {
         font-size: 20px;
-        color : #e6e3f1;
+        color : #f7f2eb;
         text-align:center;
         margin-bottom: 5.5px;
         font-weight : bold;
@@ -51,25 +52,25 @@ export const StyledMenu = styled.section`
       }
 
       select {
-        padding: 5px;
+        padding: 0;
         font-size: 20px;
         text-align:center;
         border-color: transparent;
-        background-color: #f39594;
-        border-radius: 50px;
-        color:#e6e3f1;
+        background-color: #081f5c;
+        border-radius: 8px;
+        color:#f7f2eb;
       }
     }
 
     button {
-      padding: 10px;
-      border-radius: 50px;
-      font-size: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      font-size: 30px;
       font-weight : bold;
       width: 100%;
       border-color: transparent;
-      background-color: #636ba1;
-      color:#e6e3f1;
+      background-color: #f7f2eb;
+      color:#081f5c;
     }
   }
 `;

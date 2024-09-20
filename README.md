@@ -1,3 +1,6 @@
+# About 
+Learning Project 1: A dynamic and interactive quiz application built with React, offering users the flexibility to choose the number of questions, adjust difficulty levels (easy, medium, hard), and explore various categories like IT and Video Games. This engaging app not only tests your knowledge but also showcases the power and versatility of React.js in creating responsive user interfaces.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

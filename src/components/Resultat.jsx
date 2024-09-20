@@ -32,12 +32,12 @@ const Resultat = () => {
   } else {
     MessageResultat = (
       <div>
-        <h2>Nombre de réponses correctes insuffisant</h2>
+        <h2>Game Over</h2>
         <p>
-          Vous avez répondu à {reponsecorrecte} des questions correctement.
-          Vous avez besoin de répondre correctement à au moins 3 questions.
+          You have answered {reponsecorrecte} questions correctly.<br />
+          You need to answer at least 3 questions correctly.
         </p>
-        <button onClick={onClickHandler}>Recommencer</button>
+        <button onClick={onClickHandler}>Play Again</button>
       </div>
     );
   }

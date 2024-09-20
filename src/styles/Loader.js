@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Loader = styled.div`
   margin: 0 auto;
-  border: 16px solid #f39594;
-  border-top: 16px solid #636ba1; 
+  border: 16px solid #bad6eb;
+  border-top: 16px solid #081f5c; 
   border-radius: 50%;
   width: 120px;
   height: 120px;

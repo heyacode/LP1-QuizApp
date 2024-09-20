@@ -7,8 +7,8 @@ export const StyledResultat = styled.section`
   position: fixed;
   width: 600px;
   height: 400px;
-  background-color: #f39594;
-  border-radius: 10px;
+  background-color: #bad6eb;
+  border-radius: 8px;
   z-index: 1010;
   @media (min-width: 768px) {
     width: 600px;
@@ -20,7 +20,7 @@ export const StyledResultat = styled.section`
     align-items: center;
     justify-content: center;
     gap: 16px;
-    color: #e6e3f1;
+    color: #081f5c;
     position: absolute;
     top: 0;
     left: 0;
@@ -34,14 +34,14 @@ export const StyledResultat = styled.section`
     }
 
     button {
-      border-radius: 50px;
-      font-size: 14px;
+      border-radius: 8px;
+      font-size: 30px;
       font-weight: 700;
-      color: #e6e3f1;
+      color: #081f5c;
       margin-top:5px;
       width: 100%;
       border-color: transparent;
-      background-color: #636ba1;
+      background-color: #f7f2eb;
       padding: 10px;
       :hover {
         opacity: 0.95;
